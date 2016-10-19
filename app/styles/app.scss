@@ -1,0 +1,82 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(219,	202,	166);
+}
+
+::-webkit-input-placeholder,  {
+   color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+:-ms-input-placeholder {
+   color: white;
+}
+
+.post-button, .submit-button{
+  width: 200px;
+  background-color: rgb(51,	122,	183);
+  color: white;
+}
+.post-button:hover, .submit-button:hover{
+  background-color: rgb(51,	122,	183);
+  color: white;
+}
+
+.post-container{
+  padding-left: 40px;
+  input{
+    background-color: rgb(30,	67,	29);
+    color: white;
+    width: 200px;
+    height: 47px;
+    border-radius: 3px;
+    margin: 10px 0;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 3px;
+  }
+  button{
+    font-size: 20px;
+  }
+}
+
+.contact-container{
+  padding-left: 15px;
+  list-style: none;
+
+  h1{
+    padding-left: 10px;
+  }
+  .well{
+    background-color: rgb(124,	189,	229);
+  }
+  .name, .phone-number, .email, .twitter{
+    display: inline-block;
+    margin-right: 55px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+  .twitter{
+    margin-right: 0px;
+  }
+  .value{
+    font-size: 17px
+  }
+}
